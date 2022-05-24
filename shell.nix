@@ -5,8 +5,6 @@ pkgs.mkShell {
     alias generate='mvn archetype:generate \
       -DarchetypeGroupId=io.github.jonathanrlouie \
       -DarchetypeArtifactId=idris-maven-archetype \
-      -DarchetypeVersion=1.0-SNAPSHOT \
-      -DgroupId=test \
-      -DartifactId=artifact'
+      -DarchetypeVersion=1.0-SNAPSHOT'
   '';
 }

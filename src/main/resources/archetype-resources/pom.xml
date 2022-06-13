@@ -9,6 +9,13 @@
      
   <name>${artifactId}</name>
   <url>http://www.myorganization.org</url>
+
+  <properties>
+    <mainFile>src/main/idris/test/App.idr</mainFile>
+    <mainClass>output.Main</mainClass>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
      
   <dependencies>
     <dependency>
